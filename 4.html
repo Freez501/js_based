@@ -27,8 +27,13 @@
 -->
 <script>
   "use strict";
+  
+  const num = +prompt(`Введите число`);
+  
+  console.log (`Количестов едениц = ${num %10}`);
+  console.log (`Количестов десятков = ${Math.trunc(num /10) %10}`);
+  console.log (`Количестов сотен = ${Math.trunc(num /100) %10}`);
 
-  // Здесь пишем решение, данный комментарий необходимо стереть.
 </script>
 </body>
 </html>

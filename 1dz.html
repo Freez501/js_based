@@ -24,8 +24,8 @@
 <script>
     "use strict";
 
-    const сelcT = prompt (`Сколько градусов на улице?`); 
-    const farT = (9 / 5) * сelcT + 32; //числовой тип данных
+    const сelcT = +prompt (`Сколько градусов на улице?`); 
+    const farT = Math.round((9 / 5) * сelcT + 32); //числовой тип данных
 
     alert (`Цельсий:  ${сelcT} , Фаренгейт:  ${farT}.`);
     
